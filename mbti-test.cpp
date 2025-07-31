@@ -86,7 +86,7 @@ void run_mbti() {
 }
 
 int main() {
-    cout << "MBTI 16タイプ診断を開始します\n";
+    cout << "MBTI診断を始めます\n";
     run_mbti();
     return 0;
 }
