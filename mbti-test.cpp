@@ -82,11 +82,11 @@ void run_mbti() {
     result += (scores['T'] >= scores['F']) ? 'T' : 'F';
     result += (scores['J'] >= scores['P']) ? 'J' : 'P';
 
-    cout << "あなたのMBTIタイプは: " << result << " です。" << endl;
+    cout << "あなたのMBTIタイプは: " << result << " です" << endl;
 }
 
 int main() {
-    cout << "MBTI 16タイプ診断を開始します。\n";
+    cout << "MBTI 16タイプ診断を開始します\n";
     run_mbti();
     return 0;
 }
